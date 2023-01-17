@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Alifa Watkins' "First" Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="myfavorites.html">My Favorites</a>
+    <a href="contact.html">Get in Touch</a>
+</nav>
+<div id="Music and Photo">
+    <h2>Alifa Watkins</h2>
+    <audio controls autoplay>
+        <source src="My Favorite Things _Julie Andrews.mp3" type="audio/mp3">
+        <source src="https://cdn.discordapp.com/attachments/761768235350622228/1064773842637160488/My_Favorite_Things_-_Julie_Andrews.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio> 
+    <p>Music: "My Favorite Things" from "The Song of Music"</p>
+    <br>
+    <a href="https://www.tonchinnewyork.com/"><figure><img src="https://cdn.discordapp.com/attachments/761768235350622228/1064775810952744980/Screenshot_2023-01-17_at_12.18.50_AM.png" style="width:600px;height:600px;" alt="Picture of a hot bowl of tonkotsu ramen topped with chashu, egg, and scallions"><figcaption>Photo Credit: Alifa Watkins</figcaption></figure></a>
+    <p>Click the yummy Ramen for the best ramen spot in the world!</p>
+</div>
+<div id="My Favorites">
+    <h3>My Favorites</h3>
+    <p>These are my favorite cities that I've visited, favorite foods to review, and my top three favorite restaurants.</p>
+    <h4>My Favorite Cities</h4>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Tokyo" target="blank">Tokyo, Japan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Amsterdam" target="blank">Amsterdam, NL</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Paris" target="blank">Paris, FR</a></li>
+    </ul>
+    <h4>My Favorite Foods to Review</h4>
+    <ul>
+        <li>Burgers</li>
+        <li>Ramen</li>
+        <li>Soul Food</li>
+    </ul>
+    <h4>My Favorite Restaurants</h4>
+    <ol>
+        <li><a href="https://en.wikipedia.org/wiki/Tokyo" target="blank">Au Cheval (Chicago/NYC)</a></li>
+        <li><a href="https://www.pizzalovesemily.com/" target="blank">Pizza Loves Emily (NYC)</a></li>
+        <li><a href="https://www.tonchinnewyork.com/" target="blank">Tonchin (NYC)</a></li>
+        <li><a href="https://republiquela.com/" target="blank">Republique (LA)</a></li>
+        <li><a href="https://www.gyu-kaku.com/" target="blank">Gyu Kaku (National)</a></li>
+    </ol>
+</div>
+<div id="Your Favorite">
+    <h3>Your Favorite Burger</h3>
+    <p>Now, I want <em>YOU</em> to tell <em>ME</em> what your favorite burger and toppings are. Fill out this form below and send your answer into the void~</p>
+    <section id="overlay">
+        <img src="https://cdn.discordapp.com/attachments/761768235350622228/1064803123589296139/198416.png" alt="Cartoon picture pf cheese burger" id="logo">
+        <hr>
+        <form action="submission.html" method="POST">
+            <h1>Build your favorite burger!</h1>
+          <section class="protein">
+            <label for="patty">What is your protein of choice?</label>
+            <input type="text" name="patty" id="patty">
+          </section>
+          <hr>
+          
+          <section class="patties">
+            <label for="amount">How many patties do you usually get?</label>
+            <input type="number" name="amount" id="amount">
+          </section>
+          <hr>
+          
+          <section class="cooked">
+            <label for="doneness">How do you like your patty cooked</label>
+            <br>
+            <span>Rare</span>
+            <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+            <span>Well-Done (You disgust me)</span>
+          </section>
+          <hr>
+          
+          <section class="toppings">
+            <span>What toppings do you like?</span>
+            <br>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" name="topping" id="tomato" value="tomato">
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" name="topping" id="onion" value="onion">
+            <label for="onion">Onion</label>
+            <input type="checkbox" name="topping" id="pickles" value="pickles">
+            <label for="pickles">Pickles</label>
+          </section>
+          <hr>
+          
+          <section class="cheesy">
+            <span>Do you like cheese on your burgers?</span>
+            <br>
+            <input type="radio" name="cheese" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="cheese" id="no" value="yes">
+            <label for="no">No (You monster)</label> <br>
+            <label for="cheesetype">What type of cheese is your favorite?</label>
+            <input type="text" name="cheesetype" id="cheesetype">
+          </section>
+          <hr>
+         
+          <section class="bun-type">
+            <label for="bun">What type of bun do you prefer?</label>
+            <select name="bun" id="bun">
+              <option value="sesame">Sesame</option>
+              <option value="potatoe">Potato</option>
+              <option value="pretzel">Pretzel</option>
+              <option value="pretzel">Lettuce because I am secretly a rabbit</option>
+            </select>
+          </section>
+          <hr>
+          
+          <section class="sauce-selection">
+            <label for="sauce">What sauce do you use?</label>
+            <input list="sauces" id="sauce" name="sauce">
+            <datalist id="sauces">
+              <option value="ketchup"></option>
+              <option value="mayo"></option>
+              <option value="mustard"></option>
+              <option value="fast food secret sauce"></option>
+              <option value="I like it dry like a weirdo"></option>
+            </datalist>
+          </section>
+          <hr>
+          <section class="extra-info">
+            <label for="extra">Anything else you want to add?</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40">Because I can't code everything under the sun for this pre-work assignment.</textarea>
+          </section>
+          <hr>
+  
+          <section class="submission">
+            <input type="submit" value="Submit">
+          </section>
+        </form>
+      </section>
+</div>
+</body>
+</html>
