@@ -1,6 +1,9 @@
-body {
+  body {
     background-color: rgb(229, 204, 255);
     font-family: Sriracha, cursive;
+    font-size: larger;
+    margin: 10px 25px 10px 25px;
+    padding: 10px 10px 10px 10px;
   }
   
   form {
@@ -14,38 +17,38 @@ body {
     width: 15%;
   }
   
+  #initials {
+    color: black;
+    font-size: 50px;
+  }
+
   h1 {
     text-align: center;
   }
 
   h2 {
     text-align: center;
-    font-family: Pacifico, cursive;
+    font-family: Lobster, cursive;
+    color: #9952a4;
   }
 
   h3, h4 {
-    font-family: Pacifico, cursive;
+    font-family: Lobster, cursive;
+    color: #9952a4;
   }
 
   nav {
     background-color: #9952a4;
     padding: 10px;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #9952a4;
-    color: #ffffff;
+    text-align: right;
   }
 
   .item {
     padding: 8px;
   }
-  
+
   #burger {
-    max-height: 30%;
+    max-height: 50%;
   }
   
   #overlay {
@@ -62,6 +65,24 @@ body {
     margin: auto;
   }
   
-  .toppings label, .cheesy label {
-    margin-right: 25px;
+  .toppings label, .cheesy label, .bun-type label, .sauce-selection label, .protein label, .patties label {
+    margin-right: 15px;
+  }
+
+  .socialLinks {
+    text-align: left;
+  }
+
+  #music {
+    text-align: center;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
   }

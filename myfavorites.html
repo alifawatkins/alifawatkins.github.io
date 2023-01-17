@@ -4,26 +4,26 @@
     <title>Alifa Watkins' "First" Webpage</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <nav>
     <a href="index.html">Home</a>
     <a href="myfavorites.html">My Favorites</a>
     <a href="contact.html">Get in Touch</a>
 </nav>
-<div id="Music and Photo">
-    <h2>Alifa Watkins</h2>
+<div id="music">
+  <h2><span id="initials">A</span>lifa <span id="initials">W</span>atkins</h2>
     <audio controls autoplay>
         <source src="My Favorite Things _Julie Andrews.mp3" type="audio/mp3">
         <source src="https://cdn.discordapp.com/attachments/761768235350622228/1064773842637160488/My_Favorite_Things_-_Julie_Andrews.mp3" type="audio/mp3">
       Your browser does not support the audio element.
     </audio> 
-    <p>Music: "My Favorite Things" from "The Song of Music"</p>
-    <br>
+</div>
+<div id="photo">
     <a href="https://www.tonchinnewyork.com/"><figure><img src="https://cdn.discordapp.com/attachments/761768235350622228/1064775810952744980/Screenshot_2023-01-17_at_12.18.50_AM.png" style="width:600px;height:600px;" alt="Picture of a hot bowl of tonkotsu ramen topped with chashu, egg, and scallions"><figcaption>Photo Credit: Alifa Watkins</figcaption></figure></a>
     <p>Click the yummy Ramen for the best ramen spot in the world!</p>
 </div>
-<div id="My Favorites">
+<div id="myFavorites">
     <h3>My Favorites</h3>
     <p>These are my favorite cities that I've visited, favorite foods to review, and my top three favorite restaurants.</p>
     <h4>My Favorite Cities</h4>
@@ -47,7 +47,7 @@
         <li><a href="https://www.gyu-kaku.com/" target="blank">Gyu Kaku (National)</a></li>
     </ol>
 </div>
-<div id="Your Favorite">
+<div id="yourFavorite">
     <h3>Your Favorite Burger</h3>
     <p>Now, I want <em>YOU</em> to tell <em>ME</em> what your favorite burger and toppings are. Fill out this form below and send your answer into the void~</p>
     <section id="overlay">
@@ -97,7 +97,8 @@
             <label for="yes">Yes</label>
             <input type="radio" name="cheese" id="no" value="yes">
             <label for="no">No (You monster)</label> <br>
-            <label for="cheesetype">What type of cheese is your favorite?</label>
+            <hr>
+            <label for="cheesetype">What type of cheese(s) is your favorite?</label>
             <input type="text" name="cheesetype" id="cheesetype">
           </section>
           <hr>
@@ -138,5 +139,6 @@
         </form>
       </section>
 </div>
+<p>Music: "My Favorite Things" from "The Song of Music"</p>
 </body>
 </html>
