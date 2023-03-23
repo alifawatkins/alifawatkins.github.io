@@ -8,8 +8,8 @@ function FreeGameCard(props){
                 <h1>{props.title}</h1>
                 <p>{props.description}</p>
                 <p>{props.instructions}</p>
-                <p>{props.open_giveaway_url}</p>
                 <p>{props.platforms}</p>
+                <p>{props.open_giveaway_url}</p>
              </div>
         </div>
        
