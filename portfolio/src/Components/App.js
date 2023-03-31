@@ -23,7 +23,6 @@ function App() {
     <div className="App">
       <Header weather={weather}/>
       <Main />
-      <br />
       <Footer />
     </div>
   );
