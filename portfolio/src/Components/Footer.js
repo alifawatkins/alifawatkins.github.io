@@ -13,7 +13,7 @@ function Footer() {
           <a href="https://www.instagram.com">
             <FontAwesomeIcon icon="fa-brands fa-instagram" />
           </a>
-          <a href="https://www.linkedin.com">
+          <a href="https://www.linkedin.com/in/alifawatkins" target="_blank">
             <FontAwesomeIcon icon="fa-brands fa-linkedin" />
           </a>
         </div>
